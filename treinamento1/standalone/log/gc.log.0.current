@@ -1,0 +1,5 @@
+OpenJDK 64-Bit Server VM (25.151-b12) for linux-amd64 JRE (1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12), built on Oct 27 2017 21:59:02 by "buildd" with gcc 5.4.0 20160609
+Memory: 4k page, physical 4077164k(1538328k free), swap 12582912k(11960896k free)
+CommandLine flags: -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
+2018-03-04T19:05:27.622+0000: 12,869: [GC (Allocation Failure) [PSYoungGen: 334336K->34547K(389632K)] 334336K->34571K(1280000K), 0,0848830 secs] [Times: user=0,09 sys=0,06, real=0,09 secs] 
+2018-03-04T19:28:26.721+0000: 1391,968: [GC (Allocation Failure) [PSYoungGen: 368883K->41296K(389632K)] 368907K->41336K(1280000K), 0,1508270 secs] [Times: user=0,31 sys=0,14, real=0,15 secs] 

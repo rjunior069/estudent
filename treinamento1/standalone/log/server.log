@@ -1,0 +1,553 @@
+2018-03-04 18:02:01,164 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2018-03-04 18:02:04,847 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1-redhat-1
+2018-03-04 18:02:05,661 WARN  [org.jboss.as.warn.fd-limit] (main) WFLYSRV0071: O sistema operacional tem um número limitado de arquivos abertos para 2048 para este processo;  um valor mínimo de 4096 é recomendado. 
+2018-03-04 18:02:06,416 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Iniciando JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1)
+2018-03-04 18:02:06,426 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Propriedades de sistema configurado:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /mnt/e/estudent/exame/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /mnt/e/estudent/exame
+	jboss.host.name = pesado
+	jboss.modules.dir = /mnt/e/estudent/exame/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pesado
+	jboss.qualified.host.name = pesado.localdomain
+	jboss.server.base.dir = /mnt/e/estudent/exame/standalone
+	jboss.server.config.dir = /mnt/e/estudent/exame/standalone/configuration
+	jboss.server.data.dir = /mnt/e/estudent/exame/standalone/data
+	jboss.server.deploy.dir = /mnt/e/estudent/exame/standalone/data/content
+	jboss.server.log.dir = /mnt/e/estudent/exame/standalone/log
+	jboss.server.name = pesado
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /mnt/e/estudent/exame/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/mnt/e/estudent/exame/standalone/configuration/logging.properties
+	module.path = /mnt/e/estudent/exame/modules
+	org.jboss.boot.log.file = /mnt/e/estudent/exame/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-43-Microsoft
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /mnt/e/estudent/exame/jboss-modules.jar -mp /mnt/e/estudent/exame/modules org.jboss.as.standalone -Djboss.home.dir=/mnt/e/estudent/exame -Djboss.server.base.dir=/mnt/e/estudent/exame/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /mnt/e/estudent/exame/bin
+	user.home = /root
+	user.language = pt
+	user.name = root
+	user.timezone = GMT
+2018-03-04 18:02:06,444 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Argumentos VM: -D[Standalone] -verbose:gc -Xloggc:/mnt/e/estudent/exame/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/mnt/e/estudent/exame/standalone/log/server.log -Dlogging.configuration=file:/mnt/e/estudent/exame/standalone/configuration/logging.properties 
+2018-03-04 18:02:26,070 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/core-service=management/management-interface=http-interface' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 18:02:26,634 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/subsystem=undertow/server=default-server/https-listener=https' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 18:02:26,224 INFO  [org.wildfly.security] (ServerService Thread Pool -- 13) ELY00001: WildFly Elytron version 1.1.7.Final-redhat-1
+2018-03-04 18:02:27,094 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+2018-03-04 18:02:27,314 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.5.4.Final-redhat-1
+2018-03-04 18:02:27,339 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.5.4.Final-redhat-1
+2018-03-04 18:02:27,658 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: As seguintes implantações JSF foram ativadas: [main]
+2018-03-04 18:02:27,660 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: O atributo node-identifier em /subsystem=transactions está definido com o valor padrão. Isso é perigoso para ambientes executando vários servidores. Certifique-se de que o valor do atributo é exclusivo.
+2018-03-04 18:02:27,692 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Ativação do Subsistema de Nomeação
+2018-03-04 18:02:27,696 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy versão 3.0.24.Final-redhat-1
+2018-03-04 18:02:27,733 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Ativação do subsistema Infinispan.
+2018-03-04 18:02:27,791 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Ativação da Extensão WebServices
+2018-03-04 18:02:27,784 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Ativação do Subsistema de Segurança
+2018-03-04 18:02:28,071 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: O trabalhador 'default' auto configurou threads essenciais 2 com  threads de tarefas 16 baseado em seus 1  disponíveis processadores.  
+2018-03-04 18:02:29,619 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Inicialização JCA do Subsistema (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+2018-03-04 18:02:30,132 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versão =5.0.2.Final-redhat-1 PicketBox Atual
+2018-03-04 18:02:30,829 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.4)
+2018-03-04 18:02:31,426 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Iniciando 1.4.18.Final-redhat-2 Undertow
+2018-03-04 18:02:31,903 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Criando manipulador de arquivo para caminho de acesso '/mnt/e/estudent/exame/welcome-content' com as opções [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-04 18:02:32,017 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final-redhat-1
+2018-03-04 18:02:32,283 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Serviço de driver iniciado com driver-name = h2
+2018-03-04 18:02:34,432 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: O pool estrito slsb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do tamanho de pool do thead de trabalho. 
+2018-03-04 18:02:34,433 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: O  pool estrito mdb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do número de CPUs neste host. 
+2018-03-04 18:02:35,395 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Iniciando o Serviço de Nomeação
+2018-03-04 18:02:35,734 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Sessão de correio limitado [java:jboss/mail/Default]
+2018-03-04 18:02:35,792 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: O servidor default-server foi iniciado. 
+2018-03-04 18:02:36,647 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Iniciando host default-host
+2018-03-04 18:02:37,065 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Suspensão do subsistema EJB concluída
+2018-03-04 18:02:37,794 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Ouvinte  HTTP Undertow default escutando em  127.0.0.1:8080
+2018-03-04 18:02:37,996 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+2018-03-04 18:02:38,150 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: O ID de patch cumulativo de JBoss EAP é : base, os patches únicos incluem: none
+2018-03-04 18:02:38,238 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /mnt/e/estudent/exame/standalone/configuration/application.keystore não encontrado, será gerado automaticamente na primeira utilização com um certificado auto-assinado para host localhost
+2018-03-04 18:02:39,223 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Foi iniciado o FileSystemDeploymentService para o diretório /mnt/e/estudent/exame/standalone/deployments
+2018-03-04 18:02:39,518 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Ouvinte  HTTPS Undertow https escutando em  127.0.0.1:8443
+2018-03-04 18:02:41,191 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+2018-03-04 18:02:41,610 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Retomando servidor 
+2018-03-04 18:02:41,620 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: A interface do gerenciamento ouvindo no http://127.0.0.1:9990/management
+2018-03-04 18:02:41,624 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: O console de administração ouvindo no http://127.0.0.1:9990
+2018-03-04 18:02:41,628 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) iniciado em 43149ms - Iniciado 292 de serviços 553 (os serviços 347 são lazy, passivos ou em demanda)
+2018-03-04 18:08:08,573 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Foi solicitado o desligamento do servidor através de um sinal de OS
+2018-03-04 18:08:08,630 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+2018-03-04 18:08:08,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Interrompendo host default-host
+2018-03-04 18:08:08,714 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Ouvinte  HTTPS Undertow https está suspendendo
+2018-03-04 18:08:08,725 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Ouvinte HTTPS Undertow https interrompido, estava vinculado a  127.0.0.1:8443
+2018-03-04 18:08:08,739 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Ouvinte  HTTP Undertow default está suspendendo
+2018-03-04 18:08:08,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Ouvinte HTTP Undertow default interrompido, estava vinculado a  127.0.0.1:8080
+2018-03-04 18:08:08,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Interrompendo 1.4.18.Final-redhat-2 Undertow
+2018-03-04 18:08:08,784 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Serviço de driver interrompido com driver-name = h2
+2018-03-04 18:08:08,858 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) interrompido em 250ms
+2018-03-04 18:14:35,966 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2018-03-04 18:14:37,137 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1-redhat-1
+2018-03-04 18:14:37,454 WARN  [org.jboss.as.warn.fd-limit] (main) WFLYSRV0071: O sistema operacional tem um número limitado de arquivos abertos para 2048 para este processo;  um valor mínimo de 4096 é recomendado. 
+2018-03-04 18:14:37,593 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Iniciando JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1)
+2018-03-04 18:14:37,599 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Propriedades de sistema configurado:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /mnt/e/estudent/exame/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /mnt/e/estudent/exame
+	jboss.host.name = pesado
+	jboss.modules.dir = /mnt/e/estudent/exame/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pesado
+	jboss.qualified.host.name = pesado.localdomain
+	jboss.server.base.dir = /mnt/e/estudent/exame/standalone
+	jboss.server.config.dir = /mnt/e/estudent/exame/standalone/configuration
+	jboss.server.data.dir = /mnt/e/estudent/exame/standalone/data
+	jboss.server.deploy.dir = /mnt/e/estudent/exame/standalone/data/content
+	jboss.server.log.dir = /mnt/e/estudent/exame/standalone/log
+	jboss.server.name = pesado
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /mnt/e/estudent/exame/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/mnt/e/estudent/exame/standalone/configuration/logging.properties
+	module.path = /mnt/e/estudent/exame/modules
+	org.jboss.boot.log.file = /mnt/e/estudent/exame/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-43-Microsoft
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /mnt/e/estudent/exame/jboss-modules.jar -mp /mnt/e/estudent/exame/modules org.jboss.as.standalone -Djboss.home.dir=/mnt/e/estudent/exame -Djboss.server.base.dir=/mnt/e/estudent/exame/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /mnt/e/estudent/exame/bin
+	user.home = /root
+	user.language = pt
+	user.name = root
+	user.timezone = GMT
+2018-03-04 18:14:37,601 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Argumentos VM: -D[Standalone] -verbose:gc -Xloggc:/mnt/e/estudent/exame/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0 -Dorg.jboss.boot.log.file=/mnt/e/estudent/exame/standalone/log/server.log -Dlogging.configuration=file:/mnt/e/estudent/exame/standalone/configuration/logging.properties 
+2018-03-04 18:14:42,727 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/core-service=management/management-interface=http-interface' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 18:14:42,869 INFO  [org.wildfly.security] (ServerService Thread Pool -- 7) ELY00001: WildFly Elytron version 1.1.7.Final-redhat-1
+2018-03-04 18:14:42,871 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/subsystem=undertow/server=default-server/https-listener=https' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 18:14:43,159 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+2018-03-04 18:14:43,199 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.5.4.Final-redhat-1
+2018-03-04 18:14:43,216 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.5.4.Final-redhat-1
+2018-03-04 18:14:43,307 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Ativação do subsistema Infinispan.
+2018-03-04 18:14:43,320 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Ativação do Subsistema de Nomeação
+2018-03-04 18:14:43,309 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy versão 3.0.24.Final-redhat-1
+2018-03-04 18:14:43,366 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: O trabalhador 'default' auto configurou threads essenciais 2 com  threads de tarefas 16 baseado em seus 1  disponíveis processadores.  
+2018-03-04 18:14:43,367 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: O atributo node-identifier em /subsystem=transactions está definido com o valor padrão. Isso é perigoso para ambientes executando vários servidores. Certifique-se de que o valor do atributo é exclusivo.
+2018-03-04 18:14:43,405 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Ativação do Subsistema de Segurança
+2018-03-04 18:14:43,448 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Ativação da Extensão WebServices
+2018-03-04 18:14:43,465 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: As seguintes implantações JSF foram ativadas: [main]
+2018-03-04 18:14:43,555 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.5.Final-redhat-1
+2018-03-04 18:14:43,681 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.4)
+2018-03-04 18:14:43,765 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versão =5.0.2.Final-redhat-1 PicketBox Atual
+2018-03-04 18:14:43,781 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Iniciando 1.4.18.Final-redhat-2 Undertow
+2018-03-04 18:14:43,857 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Inicialização JCA do Subsistema (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+2018-03-04 18:14:43,981 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Serviço de driver iniciado com driver-name = h2
+2018-03-04 18:14:44,118 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Iniciando o Serviço de Nomeação
+2018-03-04 18:14:44,155 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Sessão de correio limitado [java:jboss/mail/Default]
+2018-03-04 18:14:44,273 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: O pool estrito slsb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do tamanho de pool do thead de trabalho. 
+2018-03-04 18:14:44,276 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: O  pool estrito mdb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do número de CPUs neste host. 
+2018-03-04 18:14:44,353 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Criando manipulador de arquivo para caminho de acesso '/mnt/e/estudent/exame/welcome-content' com as opções [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-04 18:14:44,689 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: O servidor default-server foi iniciado. 
+2018-03-04 18:14:44,730 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Iniciando host default-host
+2018-03-04 18:14:44,905 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Ouvinte  HTTP Undertow default escutando em  0.0.0.0:8080
+2018-03-04 18:14:44,975 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: O ID de patch cumulativo de JBoss EAP é : base, os patches únicos incluem: none
+2018-03-04 18:14:44,986 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Suspensão do subsistema EJB concluída
+2018-03-04 18:14:45,027 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /mnt/e/estudent/exame/standalone/configuration/application.keystore não encontrado, será gerado automaticamente na primeira utilização com um certificado auto-assinado para host localhost
+2018-03-04 18:14:45,058 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Foi iniciado o FileSystemDeploymentService para o diretório /mnt/e/estudent/exame/standalone/deployments
+2018-03-04 18:14:45,291 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Ouvinte  HTTPS Undertow https escutando em  0.0.0.0:8443
+2018-03-04 18:14:45,352 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+2018-03-04 18:14:45,490 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+2018-03-04 18:14:45,631 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Retomando servidor 
+2018-03-04 18:14:45,636 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: A interface do gerenciamento ouvindo no http://0.0.0.0:9990/management
+2018-03-04 18:14:45,637 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: O console de administração ouvindo no http://0.0.0.0:9990
+2018-03-04 18:14:45,639 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) iniciado em 11557ms - Iniciado 292 de serviços 553 (os serviços 347 são lazy, passivos ou em demanda)
+2018-03-04 18:52:22,890 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Foi solicitado o desligamento do servidor através de um sinal de OS
+2018-03-04 18:52:22,976 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+2018-03-04 18:52:23,053 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Interrompendo host default-host
+2018-03-04 18:52:23,081 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Ouvinte  HTTPS Undertow https está suspendendo
+2018-03-04 18:52:23,101 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Ouvinte  HTTP Undertow default está suspendendo
+2018-03-04 18:52:23,117 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Ouvinte HTTP Undertow default interrompido, estava vinculado a  0.0.0.0:8080
+2018-03-04 18:52:23,118 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Ouvinte HTTPS Undertow https interrompido, estava vinculado a  0.0.0.0:8443
+2018-03-04 18:52:23,170 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Serviço de driver interrompido com driver-name = h2
+2018-03-04 18:52:23,184 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Interrompendo 1.4.18.Final-redhat-2 Undertow
+2018-03-04 18:52:23,271 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) interrompido em 340ms
+2018-03-04 19:05:17,824 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2018-03-04 19:05:20,103 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1-redhat-1
+2018-03-04 19:05:20,668 WARN  [org.jboss.as.warn.fd-limit] (main) WFLYSRV0071: O sistema operacional tem um número limitado de arquivos abertos para 2048 para este processo;  um valor mínimo de 4096 é recomendado. 
+2018-03-04 19:05:21,285 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Iniciando JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1)
+2018-03-04 19:05:21,294 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Propriedades de sistema configurado:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /mnt/e/estudent/exame/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /mnt/e/estudent/exame
+	jboss.host.name = pesado
+	jboss.modules.dir = /mnt/e/estudent/exame/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pesado
+	jboss.qualified.host.name = pesado.localdomain
+	jboss.server.base.dir = /mnt/e/estudent/exame/standalone
+	jboss.server.config.dir = /mnt/e/estudent/exame/standalone/configuration
+	jboss.server.data.dir = /mnt/e/estudent/exame/standalone/data
+	jboss.server.deploy.dir = /mnt/e/estudent/exame/standalone/data/content
+	jboss.server.log.dir = /mnt/e/estudent/exame/standalone/log
+	jboss.server.name = pesado
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /mnt/e/estudent/exame/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/mnt/e/estudent/exame/standalone/configuration/logging.properties
+	module.path = /mnt/e/estudent/exame/modules
+	org.jboss.boot.log.file = /mnt/e/estudent/exame/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-43-Microsoft
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /mnt/e/estudent/exame/jboss-modules.jar -mp /mnt/e/estudent/exame/modules org.jboss.as.standalone -Djboss.home.dir=/mnt/e/estudent/exame -Djboss.server.base.dir=/mnt/e/estudent/exame/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /mnt/e/estudent/exame/bin
+	user.home = /root
+	user.language = pt
+	user.name = root
+	user.timezone = GMT
+2018-03-04 19:05:21,297 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Argumentos VM: -D[Standalone] -verbose:gc -Xloggc:/mnt/e/estudent/exame/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0 -Dorg.jboss.boot.log.file=/mnt/e/estudent/exame/standalone/log/server.log -Dlogging.configuration=file:/mnt/e/estudent/exame/standalone/configuration/logging.properties 
+2018-03-04 19:05:27,563 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/core-service=management/management-interface=http-interface' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 19:05:27,776 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 15) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/subsystem=undertow/server=default-server/https-listener=https' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 19:05:27,770 INFO  [org.wildfly.security] (ServerService Thread Pool -- 18) ELY00001: WildFly Elytron version 1.1.7.Final-redhat-1
+2018-03-04 19:05:28,070 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+2018-03-04 19:05:28,113 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.5.4.Final-redhat-1
+2018-03-04 19:05:28,135 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.5.4.Final-redhat-1
+2018-03-04 19:05:28,246 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Ativação do subsistema Infinispan.
+2018-03-04 19:05:28,267 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy versão 3.0.24.Final-redhat-1
+2018-03-04 19:05:28,266 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: As seguintes implantações JSF foram ativadas: [main]
+2018-03-04 19:05:28,300 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: O atributo node-identifier em /subsystem=transactions está definido com o valor padrão. Isso é perigoso para ambientes executando vários servidores. Certifique-se de que o valor do atributo é exclusivo.
+2018-03-04 19:05:28,321 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Ativação do Subsistema de Segurança
+2018-03-04 19:05:28,367 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Ativação do Subsistema de Nomeação
+2018-03-04 19:05:28,383 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Ativação da Extensão WebServices
+2018-03-04 19:05:28,423 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: O trabalhador 'default' auto configurou threads essenciais 2 com  threads de tarefas 16 baseado em seus 1  disponíveis processadores.  
+2018-03-04 19:05:28,443 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versão =5.0.2.Final-redhat-1 PicketBox Atual
+2018-03-04 19:05:28,558 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final-redhat-1
+2018-03-04 19:05:28,737 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.4)
+2018-03-04 19:05:28,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Iniciando 1.4.18.Final-redhat-2 Undertow
+2018-03-04 19:05:28,814 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Inicialização JCA do Subsistema (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+2018-03-04 19:05:28,933 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Serviço de driver iniciado com driver-name = h2
+2018-03-04 19:05:29,076 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Iniciando o Serviço de Nomeação
+2018-03-04 19:05:29,098 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Sessão de correio limitado [java:jboss/mail/Default]
+2018-03-04 19:05:29,286 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Criando manipulador de arquivo para caminho de acesso '/mnt/e/estudent/exame/welcome-content' com as opções [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-04 19:05:29,622 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: O pool estrito slsb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do tamanho de pool do thead de trabalho. 
+2018-03-04 19:05:29,638 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: O  pool estrito mdb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do número de CPUs neste host. 
+2018-03-04 19:05:29,690 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: O servidor default-server foi iniciado. 
+2018-03-04 19:05:29,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Iniciando host default-host
+2018-03-04 19:05:30,046 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Ouvinte  HTTP Undertow default escutando em  0.0.0.0:8080
+2018-03-04 19:05:30,160 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: O ID de patch cumulativo de JBoss EAP é : base, os patches únicos incluem: none
+2018-03-04 19:05:30,200 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /mnt/e/estudent/exame/standalone/configuration/application.keystore não encontrado, será gerado automaticamente na primeira utilização com um certificado auto-assinado para host localhost
+2018-03-04 19:05:30,224 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Foi iniciado o FileSystemDeploymentService para o diretório /mnt/e/estudent/exame/standalone/deployments
+2018-03-04 19:05:30,342 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Suspensão do subsistema EJB concluída
+2018-03-04 19:05:30,503 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Ouvinte  HTTPS Undertow https escutando em  0.0.0.0:8443
+2018-03-04 19:05:30,739 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+2018-03-04 19:05:30,884 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+2018-03-04 19:05:31,436 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Retomando servidor 
+2018-03-04 19:05:31,459 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: A interface do gerenciamento ouvindo no http://0.0.0.0:9990/management
+2018-03-04 19:05:31,461 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: O console de administração ouvindo no http://0.0.0.0:9990
+2018-03-04 19:05:31,464 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) iniciado em 16134ms - Iniciado 292 de serviços 553 (os serviços 347 são lazy, passivos ou em demanda)
+2018-03-04 19:26:41,754 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+2018-03-04 19:26:41,762 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Interrompendo host default-host
+2018-03-04 19:28:25,702 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Ouvinte  HTTPS Undertow https está suspendendo
+2018-03-04 19:28:25,708 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Ouvinte HTTPS Undertow https interrompido, estava vinculado a  0.0.0.0:8443
+2018-03-04 19:28:25,719 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Serviço de driver interrompido com driver-name = h2
+2018-03-04 19:28:25,724 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Ouvinte  HTTP Undertow default está suspendendo
+2018-03-04 19:28:25,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Ouvinte HTTP Undertow default interrompido, estava vinculado a  0.0.0.0:8080
+2018-03-04 19:28:25,753 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Interrompendo 1.4.18.Final-redhat-2 Undertow
+2018-03-04 19:28:25,799 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Sessão de correio não limitado [java:jboss/mail/Default]
+2018-03-04 19:28:25,842 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) interrompido em 104133ms
+2018-03-04 19:28:25,848 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Iniciando JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1)
+2018-03-04 19:28:25,878 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Propriedades de sistema configurado:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /mnt/e/estudent/exame/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.naming.factory.url.pkgs = org.jboss.as.naming.interfaces
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+	java.security.auth.login.config = jar:file:/mnt/e/estudent/exame/modules/system/layers/base/org/picketbox/main/picketbox-5.0.2.Final-redhat-1.jar!/auth.conf
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /mnt/e/estudent/exame
+	jboss.host.name = pesado
+	jboss.modules.dir = /mnt/e/estudent/exame/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pesado
+	jboss.qualified.host.name = pesado.localdomain
+	jboss.server.base.dir = /mnt/e/estudent/exame/standalone
+	jboss.server.config.dir = /mnt/e/estudent/exame/standalone/configuration
+	jboss.server.data.dir = /mnt/e/estudent/exame/standalone/data
+	jboss.server.deploy.dir = /mnt/e/estudent/exame/standalone/data/content
+	jboss.server.log.dir = /mnt/e/estudent/exame/standalone/log
+	jboss.server.name = pesado
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /mnt/e/estudent/exame/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/mnt/e/estudent/exame/standalone/configuration/logging.properties
+	module.path = /mnt/e/estudent/exame/modules
+	org.apache.xml.security.ignoreLineBreaks = true
+	org.jboss.boot.log.file = /mnt/e/estudent/exame/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.jboss.security.context.ThreadLocal = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-43-Microsoft
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /mnt/e/estudent/exame/jboss-modules.jar -mp /mnt/e/estudent/exame/modules org.jboss.as.standalone -Djboss.home.dir=/mnt/e/estudent/exame -Djboss.server.base.dir=/mnt/e/estudent/exame/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.nio.ch.bugLevel = 
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /mnt/e/estudent/exame/bin
+	user.home = /root
+	user.language = pt
+	user.name = root
+	user.timezone = GMT
+2018-03-04 19:28:25,880 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Argumentos VM: -D[Standalone] -verbose:gc -Xloggc:/mnt/e/estudent/exame/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0 -Dorg.jboss.boot.log.file=/mnt/e/estudent/exame/standalone/log/server.log -Dlogging.configuration=file:/mnt/e/estudent/exame/standalone/configuration/logging.properties 
+2018-03-04 19:28:26,237 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/core-service=management/management-interface=http-interface' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 19:28:26,308 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: O atributo 'security-realm' no recurso no endereço '/subsystem=undertow/server=default-server/https-listener=https' está  preterido e pode ser removido em uma versão futura. Veja a descrição de atributo no resultado da operação  read-resource-description para aprender mais sobre a  depreciação.
+2018-03-04 19:28:26,445 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Criação de serviço de gerenciamento http usando o socket-binding (management-http)
+2018-03-04 19:28:26,482 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.4)
+2018-03-04 19:28:26,579 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: O trabalhador 'default' auto configurou threads essenciais 2 com  threads de tarefas 16 baseado em seus 1  disponíveis processadores.  
+2018-03-04 19:28:26,582 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy versão 3.0.24.Final-redhat-1
+2018-03-04 19:28:26,616 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Inicialização JCA do Subsistema (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+2018-03-04 19:28:26,563 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Ativação do subsistema Infinispan.
+2018-03-04 19:28:26,640 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Ativação do Subsistema de Nomeação
+2018-03-04 19:28:26,671 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Ativação do Subsistema de Segurança
+2018-03-04 19:28:26,681 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: O atributo node-identifier em /subsystem=transactions está definido com o valor padrão. Isso é perigoso para ambientes executando vários servidores. Certifique-se de que o valor do atributo é exclusivo.
+2018-03-04 19:28:26,874 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Serviço de driver iniciado com driver-name = h2
+2018-03-04 19:28:26,878 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Versão =5.0.2.Final-redhat-1 PicketBox Atual
+2018-03-04 19:28:26,880 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Iniciando 1.4.18.Final-redhat-2 Undertow
+2018-03-04 19:28:26,879 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Ativação da Extensão WebServices
+2018-03-04 19:28:26,891 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: O pool estrito slsb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do tamanho de pool do thead de trabalho. 
+2018-03-04 19:28:26,903 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: O  pool estrito mdb-strict-max-pool está utilizando um tamanho de instância máximo de 16 (por classe) que é derivado do número de CPUs neste host. 
+2018-03-04 19:28:26,965 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Iniciando o Serviço de Nomeação
+2018-03-04 19:28:26,986 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Sessão de correio limitado [java:jboss/mail/Default]
+2018-03-04 19:28:26,995 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Criando manipulador de arquivo para caminho de acesso '/mnt/e/estudent/exame/welcome-content' com as opções [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-03-04 19:28:27,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: O servidor default-server foi iniciado. 
+2018-03-04 19:28:27,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Iniciando host default-host
+2018-03-04 19:28:27,063 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Ouvinte  HTTP Undertow default escutando em  0.0.0.0:8080
+2018-03-04 19:28:27,071 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Suspensão do subsistema EJB concluída
+2018-03-04 19:28:27,100 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+2018-03-04 19:28:27,155 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: O ID de patch cumulativo de JBoss EAP é : base, os patches únicos incluem: none
+2018-03-04 19:28:27,165 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /mnt/e/estudent/exame/standalone/configuration/application.keystore não encontrado, será gerado automaticamente na primeira utilização com um certificado auto-assinado para host localhost
+2018-03-04 19:28:27,194 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Foi iniciado o FileSystemDeploymentService para o diretório /mnt/e/estudent/exame/standalone/deployments
+2018-03-04 19:28:27,250 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Ouvinte  HTTPS Undertow https escutando em  0.0.0.0:8443
+2018-03-04 19:28:27,263 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+2018-03-04 19:28:27,411 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Retomando servidor 
+2018-03-04 19:28:27,415 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: A interface do gerenciamento ouvindo no http://0.0.0.0:9990/management
+2018-03-04 19:28:27,417 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: O console de administração ouvindo no http://0.0.0.0:9990
+2018-03-04 19:28:27,425 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) iniciado em 1535ms - Iniciado 292 de serviços 553 (os serviços 347 são lazy, passivos ou em demanda)

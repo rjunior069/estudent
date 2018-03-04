@@ -1,0 +1,6 @@
+2018-03-04 22:21:55,701 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2018-03-04 22:21:56,633 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Processo de inicialização 'Host Controller'
+2018-03-04 22:22:18,872 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0017: Encerrando o controlador do processo
+2018-03-04 22:22:18,878 INFO  [org.jboss.as.process.Host Controller.status] (Shutdown thread) WFLYPC0019: Processo de interrupção 'Host Controller'
+2018-03-04 22:22:18,995 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Processo 'Host Controller' encerrado com o status de saída do 130
+2018-03-04 22:22:19,006 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0016: Todos os processos encerrados: encerrando

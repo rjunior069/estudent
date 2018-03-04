@@ -1,0 +1,13 @@
+OpenJDK 64-Bit Server VM (25.151-b12) for linux-amd64 JRE (1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12), built on Oct 27 2017 21:59:02 by "buildd" with gcc 5.4.0 20160609
+Memory: 4k page, physical 4077164k(1474492k free), swap 12582912k(12125808k free)
+CommandLine flags: -XX:GCLogFileSize=3145728 -XX:InitialHeapSize=1366294528 -XX:MaxHeapSize=1366294528 -XX:MaxMetaspaceSize=268435456 -XX:MetaspaceSize=100663296 -XX:NumberOfGCLogFiles=5 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:-TraceClassUnloading -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:+UseParallelGC 
+2018-03-04T18:14:42.786+0000: 9,277: [GC (Allocation Failure) [PSYoungGen: 334336K->34430K(389632K)] 334336K->34454K(1280000K), 0,0761300 secs] [Times: user=0,05 sys=0,09, real=0,07 secs] 
+Heap
+ PSYoungGen      total 389632K, used 331216K [0x00000000e4d80000, 0x0000000100000000, 0x0000000100000000)
+  eden space 334336K, 88% used [0x00000000e4d80000,0x00000000f6f54590,0x00000000f9400000)
+  from space 55296K, 62% used [0x00000000f9400000,0x00000000fb59fbf8,0x00000000fca00000)
+  to   space 55296K, 0% used [0x00000000fca00000,0x00000000fca00000,0x0000000100000000)
+ ParOldGen       total 890368K, used 24K [0x00000000ae800000, 0x00000000e4d80000, 0x00000000e4d80000)
+  object space 890368K, 0% used [0x00000000ae800000,0x00000000ae806000,0x00000000e4d80000)
+ Metaspace       used 53637K, capacity 60724K, committed 60928K, reserved 1101824K
+  class space    used 6984K, capacity 8926K, committed 8960K, reserved 1048576K
